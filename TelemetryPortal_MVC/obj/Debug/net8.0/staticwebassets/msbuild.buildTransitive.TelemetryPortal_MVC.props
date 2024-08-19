@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TelemetryPortal_MVC.props" />
+</Project>
