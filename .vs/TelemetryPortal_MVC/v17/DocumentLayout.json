@@ -1,34 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\option1_telemetryportal_mvc\\telemetryportal_mvc\\telemetryportal_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.CSharp.Core.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\option1_telemetryportal_mvc\\telemetryportal_mvc\\telemetryportal_mvc\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\telemetryportal_mvc\\telemetryportal_mvc\\interfaces\\iprojectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\interfaces\\iprojectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\telemetryportal_mvc\\telemetryportal_mvc\\data\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\data\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\telemetryportal_mvc\\telemetryportal_mvc\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\telemetryportal_mvc\\telemetryportal_mvc\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\option1_telemetryportal_mvc\\telemetryportal_mvc\\telemetryportal_mvc\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\telemetryportal_mvc\\telemetryportal_mvc\\data\\techtrendscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\data\\techtrendscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\option1_telemetryportal_mvc\\telemetryportal_mvc\\telemetryportal_mvc\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\telemetryportal_mvc\\telemetryportal_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\option1_telemetryportal_mvc\\telemetryportal_mvc\\telemetryportal_mvc\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\telemetryportal_mvc\\telemetryportal_mvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\option1_telemetryportal_mvc\\telemetryportal_mvc\\telemetryportal_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\telemetryportal_mvc\\telemetryportal_mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\option1_telemetryportal_mvc\\telemetryportal_mvc\\telemetryportal_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|c:\\users\\user\\source\\repos\\telemetryportal_mvc\\telemetryportal_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41999BF9-9822-4C5E-A22C-CBBE210FC987}|TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj|solutionrelative:telemetryportal_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,87 +54,132 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\appsettings.json",
-              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\appsettings.json",
-              "RelativeToolTip": "TelemetryPortal_MVC\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-19T05:35:12.027Z",
+              "Title": "Microsoft.CSharp.Core.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.CSharp.Core.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.CSharp.Core.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.CSharp.Core.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.CSharp.Core.targets",
+              "ViewState": "AQIAAEAAAAAAAAAAAIAwwFQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-08-20T01:14:59.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Program.cs",
+              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Program.cs",
+              "RelativeToolTip": "TelemetryPortal_MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T22:52:15.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "TelemetryPortal_MVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-19T04:53:19.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "TelemetryPortal_MVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAwAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-19T04:53:22.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Views\\Projects\\Index.cshtml",
-              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Views\\Projects\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Views\\Projects\\Index.cshtml",
-              "RelativeToolTip": "TelemetryPortal_MVC\\Views\\Projects\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-19T04:53:22.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Views\\Clients\\Index.cshtml",
-              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Views\\Clients\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Views\\Clients\\Index.cshtml",
-              "RelativeToolTip": "TelemetryPortal_MVC\\Views\\Clients\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-19T04:53:22.49Z"
+              "Title": "TechtrendsContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Data\\TechtrendsContext.cs",
+              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Data\\TechtrendsContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Data\\TechtrendsContext.cs",
+              "RelativeToolTip": "TelemetryPortal_MVC\\Data\\TechtrendsContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T22:26:05.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Models\\Client.cs",
-              "RelativeToolTip": "TelemetryPortal_MVC\\Models\\Client.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Data\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Data\\ProjectRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Data\\ProjectRepository.cs",
+              "RelativeToolTip": "TelemetryPortal_MVC\\Data\\ProjectRepository.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAkwGQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T04:53:22.492Z"
+              "WhenOpened": "2024-08-19T22:24:24.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Models\\Project.cs",
-              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Models\\Project.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Models\\Project.cs",
-              "RelativeToolTip": "TelemetryPortal_MVC\\Models\\Project.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Title": "IProjectsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Interfaces\\IProjectsRepository.cs",
+              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Interfaces\\IProjectsRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Interfaces\\IProjectsRepository.cs",
+              "RelativeToolTip": "TelemetryPortal_MVC\\Interfaces\\IProjectsRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T04:53:22.494Z"
+              "WhenOpened": "2024-08-19T22:19:48.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Models\\Project.cs",
+              "RelativeToolTip": "TelemetryPortal_MVC\\Models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T04:53:22.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "TelemetryPortal_MVC\\Controllers\\ProjectsController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAuwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T22:15:57.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TelemetryPortal_MVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T22:14:02.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TelemetryPortal_MVC\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T22:13:02.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "TelemetryPortal_MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\appsettings.json",
+              "RelativeToolTip": "TelemetryPortal_MVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-19T05:35:12.027Z",
+              "EditorCaption": ""
             }
           ]
         }

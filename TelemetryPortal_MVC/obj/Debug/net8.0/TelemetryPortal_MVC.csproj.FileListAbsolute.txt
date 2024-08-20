@@ -533,3 +533,16 @@ C:\Users\User\Documents\Katlego\NWU\Final_Year\Semester2\CMPG323\Project 3\Optio
 C:\Users\User\Documents\Katlego\NWU\Final_Year\Semester2\CMPG323\Project 3\Option1_TelemetryPortal_MVC\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.pdb
 C:\Users\User\Documents\Katlego\NWU\Final_Year\Semester2\CMPG323\Project 3\Option1_TelemetryPortal_MVC\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.genruntimeconfig.cache
 C:\Users\User\Documents\Katlego\NWU\Final_Year\Semester2\CMPG323\Project 3\Option1_TelemetryPortal_MVC\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\ref\TelemetryPortal_MVC.dll
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.AssemblyInfo.cs
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.RazorAssemblyInfo.cache
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.RazorAssemblyInfo.cs
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.sourcelink.json
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.dll
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\refint\TelemetryPortal_MVC.dll
+C:\Users\User\source\repos\TelemetryPortal_MVC\TelemetryPortal_MVC\obj\Debug\net8.0\TelemetryPortal_MVC.pdb
