@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\Katlego\\NWU\\Final_Year\\Semester2\\CMPG323\\Project 3\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj": {}
+    "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\Katlego\\NWU\\Final_Year\\Semester2\\CMPG323\\Project 3\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj": {
+    "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Katlego\\NWU\\Final_Year\\Semester2\\CMPG323\\Project 3\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj",
         "projectName": "TelemetryPortal_MVC",
-        "projectPath": "C:\\Users\\User\\Documents\\Katlego\\NWU\\Final_Year\\Semester2\\CMPG323\\Project 3\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Katlego\\NWU\\Final_Year\\Semester2\\CMPG323\\Project 3\\Option1_TelemetryPortal_MVC\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\TelemetryPortal_MVC\\TelemetryPortal_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
