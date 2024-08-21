@@ -6,23 +6,26 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TelemetryPortal_MVC.Data;
+using TelemetryPortal_MVC.Interfaces;
 using TelemetryPortal_MVC.Models;
 
 namespace TelemetryPortal_MVC.Controllers
 {
     public class ClientsController : Controller
     {
-        private readonly TechtrendsContext _context;
+        //private readonly TechtrendsContext _context;
+        private readonly IClientRepsitory _clientRepsitory;
 
-        public ClientsController(TechtrendsContext context)
+        public ClientsController(IClientRepsitory clientRepsitory)
         {
-            _context = context;
+            _clientRepsitory = clientRepsitory;
         }
 
         // GET: Clients
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Clients.ToListAsync());
+            //await _context.Clients.ToListAsync()
+            return View(_clientRepsitory.GetClientAsync());
         }
 
         // GET: Clients/Details/5
@@ -33,8 +36,10 @@ namespace TelemetryPortal_MVC.Controllers
                 return NotFound();
             }
 
-            var client = await _context.Clients
-                .FirstOrDefaultAsync(m => m.ClientId == id);
+            /*var client = await _context.Clients
+                .FirstOrDefaultAsync(m => m.ClientId == id);*/
+            var client = _clientRepsitory.GetDetails(id);
+
             if (client == null)
             {
                 return NotFound();
@@ -59,8 +64,12 @@ namespace TelemetryPortal_MVC.Controllers
             if (ModelState.IsValid)
             {
                 client.ClientId = Guid.NewGuid();
-                _context.Add(client);
-                await _context.SaveChangesAsync();
+
+                /*_context.Add(client);
+                await _context.SaveChangesAsync();*/
+
+                _clientRepsitory.CreateClient(client);
+
                 return RedirectToAction(nameof(Index));
             }
             return View(client);
@@ -74,7 +83,9 @@ namespace TelemetryPortal_MVC.Controllers
                 return NotFound();
             }
 
-            var client = await _context.Clients.FindAsync(id);
+            /*var client = await _context.Clients.FindAsync(id);*/
+            var client = _clientRepsitory.EditClientWithID(id);
+
             if (client == null)
             {
                 return NotFound();
@@ -98,8 +109,9 @@ namespace TelemetryPortal_MVC.Controllers
             {
                 try
                 {
-                    _context.Update(client);
-                    await _context.SaveChangesAsync();
+                    /*_context.Update(client);
+                    await _context.SaveChangesAsync();*/
+                    _clientRepsitory.EditClient(id, client);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -125,8 +137,9 @@ namespace TelemetryPortal_MVC.Controllers
                 return NotFound();
             }
 
-            var client = await _context.Clients
-                .FirstOrDefaultAsync(m => m.ClientId == id);
+            /*var client = await _context.Clients
+                .FirstOrDefaultAsync(m => m.ClientId == id);*/
+            var client = _clientRepsitory.DeleteWithID(id);
             if (client == null)
             {
                 return NotFound();
@@ -140,19 +153,23 @@ namespace TelemetryPortal_MVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            var client = await _context.Clients.FindAsync(id);
+            /*var client = await _context.Clients.FindAsync(id);*/
+            var client = _clientRepsitory.FindByID(id);
             if (client != null)
             {
-                _context.Clients.Remove(client);
+                /*_context.Clients.Remove(client);*/
+                _clientRepsitory.RemoveClient((Client) await client);
             }
 
-            await _context.SaveChangesAsync();
+            //await _context.SaveChangesAsync();
+            _clientRepsitory.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ClientExists(Guid id)
         {
-            return _context.Clients.Any(e => e.ClientId == id);
+
+            return _clientRepsitory.CheckClient(id);
         }
     }
 }
