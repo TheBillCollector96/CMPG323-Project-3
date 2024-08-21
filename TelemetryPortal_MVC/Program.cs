@@ -16,7 +16,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IProjectsRepository, ProjectRepository>();
+builder.Services.AddScoped<IProjectsRepository, ProjectRepository>(); //Add Project Repository as a Service
+builder.Services.AddScoped<IClientRepsitory, ClientRepository>(); //Add Project Repository as a Service
 
 var app = builder.Build();
 
