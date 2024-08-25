@@ -11,21 +11,21 @@ namespace TelemetryPortal_MVC.Interfaces
     {
         public Task<IEnumerable<Project>> GetProjectAsync();
 
-        public Task<IActionResult> CreateProject([Bind("ProjectId,ProjectName,ProjectDescription,ProjectCreationDate,ProjectStatus,ClientId")] Project project);
+        public Task<Project> CreateProject([Bind("ProjectId,ProjectName,ProjectDescription,ProjectCreationDate,ProjectStatus,ClientId")] Project project);
 
-        public Task<IActionResult> GetDetails(Guid? id);
+        public Task<Project> GetDetails(Guid? id);
 
-        public Task<IActionResult> DeleteProject(Guid? id);
+        public Task<Project> DeleteProject(Guid? id);
 
-        public Task<IActionResult> EditWithID(Guid? id);
+        public Task<Project> EditWithID(Guid? id);
 
-        public Task<IActionResult> EditProject(Guid id, [Bind("ProjectId,ProjectName,ProjectDescription,ProjectCreationDate,ProjectStatus,ClientId")] Project project);
+        public Task<Project> EditProject(Guid id, [Bind("ProjectId,ProjectName,ProjectDescription,ProjectCreationDate,ProjectStatus,ClientId")] Project project);
 
         public Task<Project> FindByID(Guid id);
 
-        public Task<IActionResult> RemoveProject(Project project);
+        public Task<Project> RemoveProject(Project project);
 
-        public void SaveChanges();
+        public Task SaveChanges();
 
         public bool ProjectExistance(Guid id);
 

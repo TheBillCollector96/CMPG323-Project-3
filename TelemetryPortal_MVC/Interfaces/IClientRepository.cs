@@ -9,23 +9,23 @@ namespace TelemetryPortal_MVC.Interfaces
 {
     public interface IClientRepsitory
     {
-        public Task<IActionResult> GetClientAsync();
+        public Task<IEnumerable<Client>> GetClientAsync();
 
-        public Task<IActionResult> GetDetails(Guid? id);
+        public Task<Client> GetDetails(Guid? id);
 
-        public Task<IActionResult> CreateClient([Bind("ClientId,ClientName,PrimaryContactEmail,DateOnboarded")] Client client);
+        public Task<Client> CreateClient([Bind("ClientId,ClientName,PrimaryContactEmail,DateOnboarded")] Client client);
 
-        public Task<IActionResult> EditClientWithID(Guid? id);
+        public Task<Client> EditClientWithID(Guid? id);
 
-        public Task<IActionResult> EditClient(Guid id, [Bind("ClientId,ClientName,PrimaryContactEmail,DateOnboarded")] Client client);
+        public Task<Client> EditClient(Guid id, [Bind("ClientId,ClientName,PrimaryContactEmail,DateOnboarded")] Client client);
 
-        public Task<IActionResult> DeleteWithID(Guid? id);
+        public Task<Client> DeleteWithID(Guid? id);
 
-        public Task<IActionResult> FindByID(Guid id);
+        public Task<Client> FindByID(Guid id);
 
-        public Task<IActionResult> RemoveClient(Client client);
+        public Task<Client> RemoveClient(Client client);
 
-        public void SaveChanges();
+        public Task SaveChanges();
 
         public bool CheckClient(Guid id);
     }

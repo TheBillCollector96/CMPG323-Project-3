@@ -75,7 +75,7 @@ namespace TelemetryPortal_MVC.Controllers
             }
 
             //var project = await _context.Projects.FindAsync(id);
-            var project = _projectsRepository.EditWithID(id);
+            var project = await _projectsRepository.EditWithID(id);
             if (project == null)
             {
                 return NotFound();
@@ -99,7 +99,7 @@ namespace TelemetryPortal_MVC.Controllers
             {
                 try
                 {
-                    _projectsRepository.EditProject(id, project);
+                    await _projectsRepository.EditProject(id, project);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -148,7 +148,7 @@ namespace TelemetryPortal_MVC.Controllers
             if (project != null)
             {
                 //_context.Projects.Remove(project);
-                _projectsRepository.RemoveProject((Project) await project);
+                await _projectsRepository.RemoveProject((Project) await project);
             }
 
             //await _context.SaveChangesAsync();
