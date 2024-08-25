@@ -15,67 +15,51 @@ namespace TelemetryPortal_MVC.Data
             _context = context;
         }
 
-        public async Task<IActionResult> CreateProject([Bind("ProjectId,ProjectName,ProjectDescription,ProjectCreationDate,ProjectStatus,ClientId")] Project project)
+        public async Task<Project> CreateProject([Bind("ProjectId,ProjectName,ProjectDescription,ProjectCreationDate,ProjectStatus,ClientId")] Project project)
         {
             _context.Add(project);
             await _context.SaveChangesAsync();
 
-            return (IActionResult)project;
+            return project;
         }
-
-        /*public async Task<string> CreateProject(Project project)
-        {
-            var newProject = new Project
-            {
-                ProjectName = project.ProjectName,
-                ProjectDescription = project.ProjectDescription,
-                ProjectStatus = project.ProjectStatus,
-                ClientId = project.ClientId,
-            };
-
-            _context.Projects.Add(newProject);
-            await _context.SaveChangesAsync();
-
-            return "Project Details Saved Successfully";
-        }*/
 
         public async Task<IEnumerable<Project>> GetProjectAsync()
         {
             return await _context.Projects.ToListAsync();
         }
 
-        public async Task<IActionResult> GetDetails(Guid? id)
+        public async Task<Project> GetDetails(Guid? id)
         {
 
             var project = await _context.Projects
                 .FirstOrDefaultAsync(m => m.ProjectId == id);
 
-            return (IActionResult)project;
+            return project;
         }
 
-        public async Task<IActionResult> DeleteProject(Guid? id)
+        public async Task<Project> DeleteProject(Guid? id)
         {
 
             var project = await _context.Projects
                 .FirstOrDefaultAsync(m => m.ProjectId == id);
 
-            return (IActionResult)project;
+            return project;
         }
 
-        public async Task<IActionResult> EditWithID(Guid? id)
+        public async Task<Project> EditWithID(Guid? id)
         {
             
             var project = await _context.Projects.FindAsync(id);
 
-            return (IActionResult)project;
+            return project;
         }
 
-        public async Task<IActionResult> EditProject(Guid id, [Bind("ProjectId,ProjectName,ProjectDescription,ProjectCreationDate,ProjectStatus,ClientId")] Project project)
+        public async Task<Project> EditProject(Guid id, [Bind("ProjectId,ProjectName,ProjectDescription,ProjectCreationDate,ProjectStatus,ClientId")] Project project)
         {
             _context.Update(project);
             await _context.SaveChangesAsync();
 
-            return (IActionResult)project;
+            return project;
         }
 
         public async Task<Project> FindByID(Guid id)
@@ -83,14 +67,14 @@ namespace TelemetryPortal_MVC.Data
             return await _context.Projects.FindAsync(id);
         }
 
-        public async Task<IActionResult> RemoveProject(Project project)
+        public async Task<Project> RemoveProject(Project project)
         {
             _context.Projects.Remove(project);
 
-            return (IActionResult)project;
+            return project;
         }
 
-        public async void SaveChanges()
+        public async Task SaveChanges()
         {
             await _context.SaveChangesAsync();
         }

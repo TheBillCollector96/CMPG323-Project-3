@@ -25,7 +25,8 @@ namespace TelemetryPortal_MVC.Controllers
         public async Task<IActionResult> Index()
         {
             //await _context.Clients.ToListAsync()
-            return View(_clientRepsitory.GetClientAsync());
+            //IEnumerable<Client> client = 
+            return View(await _clientRepsitory.GetClientAsync());
         }
 
         // GET: Clients/Details/5
@@ -38,7 +39,7 @@ namespace TelemetryPortal_MVC.Controllers
 
             /*var client = await _context.Clients
                 .FirstOrDefaultAsync(m => m.ClientId == id);*/
-            var client = _clientRepsitory.GetDetails(id);
+            var client = await _clientRepsitory.GetDetails(id);
 
             if (client == null)
             {
@@ -68,7 +69,7 @@ namespace TelemetryPortal_MVC.Controllers
                 /*_context.Add(client);
                 await _context.SaveChangesAsync();*/
 
-                _clientRepsitory.CreateClient(client);
+                await _clientRepsitory.CreateClient(client);
 
                 return RedirectToAction(nameof(Index));
             }
@@ -84,7 +85,7 @@ namespace TelemetryPortal_MVC.Controllers
             }
 
             /*var client = await _context.Clients.FindAsync(id);*/
-            var client = _clientRepsitory.EditClientWithID(id);
+            var client = await _clientRepsitory.EditClientWithID(id);
 
             if (client == null)
             {
@@ -111,7 +112,7 @@ namespace TelemetryPortal_MVC.Controllers
                 {
                     /*_context.Update(client);
                     await _context.SaveChangesAsync();*/
-                    _clientRepsitory.EditClient(id, client);
+                    await _clientRepsitory.EditClient(id, client);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -139,7 +140,7 @@ namespace TelemetryPortal_MVC.Controllers
 
             /*var client = await _context.Clients
                 .FirstOrDefaultAsync(m => m.ClientId == id);*/
-            var client = _clientRepsitory.DeleteWithID(id);
+            var client = await _clientRepsitory.DeleteWithID(id);
             if (client == null)
             {
                 return NotFound();
@@ -154,11 +155,11 @@ namespace TelemetryPortal_MVC.Controllers
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
             /*var client = await _context.Clients.FindAsync(id);*/
-            var client = _clientRepsitory.FindByID(id);
+            var client = await _clientRepsitory.FindByID(id);
             if (client != null)
             {
                 /*_context.Clients.Remove(client);*/
-                _clientRepsitory.RemoveClient((Client) await client);
+                await _clientRepsitory.RemoveClient((client));
             }
 
             //await _context.SaveChangesAsync();
